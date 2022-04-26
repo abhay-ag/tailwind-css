@@ -10,3 +10,14 @@
 /*
     Add a script in package.json wi the input file as this and output as the public/styles.css one
 */
+
+/* customs tyles are writtend this way */
+.btn{
+    @apply font-bold py-2 px-4 rounded;
+}
+.btn-blue{
+    @apply bg-blue-300 text-white;
+}
+.btn-blue:hover{
+    @apply bg-blue-400;
+}
