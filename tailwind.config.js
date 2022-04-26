@@ -1,7 +1,10 @@
 module.exports = {
   content: ["./public/*.{html, js}"],
-  theme: {
-    extend: {},
+  theme: {        // setting a personal setting for by default
+    container: {
+      center: true,
+      padding: '2rem'
+    }
   },
   plugins: [],
 }
