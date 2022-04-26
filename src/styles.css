@@ -1,0 +1,12 @@
+/*
+    import tailwind css
+*/
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/*
+    Add a script in package.json wi the input file as this and output as the public/styles.css one
+*/
